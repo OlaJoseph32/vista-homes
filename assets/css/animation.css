@@ -1,0 +1,44 @@
+/* Carousel Slide animation */
+@keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-1300px); /* Start left of the element */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* End at its original position */
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(1300px); /* Start right of the element */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* End at its original position */
+    }
+}
+
+.second-section h2 {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.second-section p {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.slide-in-left {
+    animation-name: slideInFromLeft;
+}
+
+.slide-in-right {
+    animation-name: slideInFromRight;
+}
+
+

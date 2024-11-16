@@ -1,0 +1,339 @@
+
+/* Media */
+@media screen and (max-width: 1200px){
+/* Header */
+    /* header{background-color: aqua;padding-top: 10px;} */
+    .nav-bar .nav-bar-container{max-width: 1400px; margin: 0 auto; gap: 30px;}
+    .branding{justify-content: center;}
+    .branding img{height: 60%;width: 60px;}
+    .nav-Menu{justify-content: center;margin-left: 10px;}
+    .nav-bar .nav-list{gap: 20px;}
+    .nav-bar .nav-list a{font-size: 1rem;}
+    .nav-bar .right-nav-list{gap: 20px;margin-right: 20px;}
+    .nav-Menu{padding: 20px 0;gap: 20px;}
+    #bttn-search{align-self: center;font-size: 1.2rem;margin-top: 5px; padding: 3px 5px;}
+
+
+/* Hero container */
+    .top-layer{margin-top: 13rem;}
+
+/* Second section  */
+    .second-section{margin-top: 12rem;padding: 10px;}
+  
+/* Sixth Section */
+    .sixth-section-con .container{max-width: 1100px;}
+    .sixth-grid-container{gap: 25px;}
+    .sixth-grid-container span{display: none;}
+
+/* Seventh section */
+    .seventh-section-container .partners-logo-con img{margin-right: 4rem;padding: 20px;}
+    .seventh-section-container .partners-logo-con img:nth-last-child(5){margin-left: 5rem;}
+
+/* Last Section */
+    .last-section-con .container{padding: 20px;line-height: 2;}
+    .last-section-con .container .text-con h2{font-size: 1.8rem; line-height: 2;}
+    .last-section-con .container .text-con p{font-size: .9rem;}
+    .last-section-con button{font-size: 1rem;padding: 10px 20px;margin-left: 24rem;}
+
+/* Footer */
+    .footer-container .container{max-width: 1100px;margin: 0 auto;}
+    .footer-grid-container{gap: 10px;}
+    .footer-grid-container h3{padding: 10px 0;font-size: 1rem;margin-bottom: -5px;}
+    .footer-grid-container a, .footer-grid-container p{font-size: .8rem;color: white;font-family: "Montserrat", sans-serif;}
+    .email-us button{padding: 0 30px;margin-top: 10px;}
+}
+   
+
+@media screen and (max-width: 1100px){
+/* Header */
+    /* header{background-color: rgb(145, 255, 0);} */
+    .nav-bar .nav-bar-container{max-width: 1100px; margin: 0 auto;}
+    .branding{justify-content: center;}
+    .branding img{height: 60%;width: 60px;}
+    .nav-Menu{justify-content: center;margin-left: 20px;}
+    .nav-bar .nav-list{gap: 20px;}
+    .nav-bar .nav-list a{font-size: 1rem;}
+    .nav-bar .right-nav-list{gap: 20px;}
+    .nav-Menu{padding: 20px 0;gap: 10px;}
+    #bttn-search{align-self: center;font-size: 1.2rem;margin-top: 5px; padding: 3px 5px;}
+
+
+/* Hero container */
+    .top-layer{margin-top: 15rem;}
+    .top-layer h2{line-height: 1.5;font-size: 2rem;}
+    .top-layer p{font-size: 1.1rem;}
+
+/* Second section  */
+    .second-section{margin-top: 13rem;padding: 10px;}
+ 
+/* Fifth section */
+    .fifth-section-con p{font-size: 1rem;padding: 15px;}
+/* Sixth Section */
+    .sixth-section-con .container{max-width: 1100px;}
+    .sixth-grid-container{gap: 25px;}
+    .why-choose-us1-con1, .why-choose-us1-con2, .why-choose-us1-con3{padding: 15px;}
+    .sixth-section-con .icons-con{height: 50px;width: 50px;}
+    .sixth-section-con .icons-con i{font-size: 1.2rem;}
+    .why-choose-us1-con1:hover .icons-con, 
+    .why-choose-us1-con2:hover .icons-con, 
+    .why-choose-us1-con3:hover .icons-con{transform: scale(1.2);}
+    .sixth-grid-container h3{font-size: .9rem;}
+    .sixth-grid-container p{font-size: .8rem;}
+    .sixth-grid-container span{display: none;}
+
+/* Seventh section */
+    .seventh-section-container .partners-logo-con img{margin-right: 2rem;padding: 20px;}
+    .seventh-section-container .partners-logo-con img:nth-last-child(5){margin-left: 2rem;}
+
+/* Last Section */
+    .last-section-con .container{padding: 20px;line-height: 2;}
+    .last-section-con .container .text-con h2{font-size: 1.5rem; line-height: 2;}
+    .last-section-con .container .text-con p{font-size: .8rem;}
+    .last-section-con button{font-size: 1.1rem;padding: 5px 8px;margin-left: 10rem;}
+
+/* Footer */
+    .footer-container .container{max-width: 1100px;margin: 0 auto;}
+    .footer-grid-container{gap: 10px;}
+    .footer-grid-container h3{padding: 10px 0;font-size: 1rem;margin-bottom: -5px;}
+    .footer-grid-container a, .footer-grid-container p{font-size: .8rem;color: white;font-family: "Montserrat", sans-serif;}
+    .email-us button{padding: 0 30px;margin-top: 10px;}
+}
+
+@media screen and (max-width: 960px){
+/* Header Hamburger menu */ 
+    .mobile-container{margin-bottom: -2.5rem; z-index: 999999;}
+
+/* Hero container */
+    .hero-container{margin-top: -2.2rem; height: 32.5rem;}
+    .carousel-inner img{height: 32.5rem; margin-top: 0rem;}
+    .top-layer{margin-top: 6rem;}
+    .top-layer h2{line-height: 1.5;font-size: 2rem;}
+    .top-layer p{font-size: 1.1rem;}
+    .search-con{margin-top: 20px;}
+    #bttn-search{align-self: center;font-size: 1.2rem;margin-top: 5px; padding: 3px 5px;}
+
+/* Second section  */
+    .second-section{margin-top: 3rem;padding: 10px;}
+    .second-section h4{margin-bottom: -.2rem;}
+    .second-section h5{margin-bottom: -.3rem;}
+
+ 
+/* Fifth section */
+    .fifth-section-con p{font-size: 1rem;padding: 15px;}
+
+/* Sixth Section */
+    .sixth-section-con .container{max-width: 1100px;}
+    .sixth-grid-container{gap: 25px;}
+    .why-choose-us1-con1, .why-choose-us1-con2, .why-choose-us1-con3{padding: 15px;}
+    .sixth-section-con .icons-con{height: 50px;width: 50px;}
+    .sixth-section-con .icons-con i{font-size: 1.2rem;}
+    .why-choose-us1-con1:hover .icons-con, 
+    .why-choose-us1-con2:hover .icons-con, 
+    .why-choose-us1-con3:hover .icons-con{transform: scale(1.2);}
+    .sixth-grid-container h3{font-size: .9rem;}
+    .sixth-grid-container p{font-size: .8rem;}
+    .sixth-grid-container span{display: none;}
+
+/* Seventh section */
+    .seventh-section-container .partners-logo-con img{margin-right: 2rem;padding: 20px;}
+    .seventh-section-container .partners-logo-con img:nth-last-child(5){margin-left: 2rem;}
+
+/* Last Section */
+    .last-section-con .container{padding: 20px;line-height: 2;}
+    .last-section-con .container .text-con h2{font-size: 1.5rem; line-height: 2;}
+    .last-section-con .container .text-con p{font-size: .8rem;}
+    .last-section-con button{font-size: 1.1rem;padding: 5px 8px;margin-left: 10rem;}
+
+/* Footer */
+    .footer-container .container{max-width: 1100px;margin: 0 auto;}
+    .footer-grid-container{gap: 10px; grid-template-columns: 1fr 1fr;}
+    .footer-grid-container h3{padding: 10px 0;font-size: 1rem;margin-bottom: -5px; margin: 0;}
+    .footer-grid-container a, .footer-grid-container p{font-size: .8rem;color: white;font-family: "Montserrat", sans-serif;}
+    .email-us button{padding: 5px 20px;margin-top: 10px;}
+    .copywrite p{padding: 20px;font-size:.7rem;}
+}
+    
+@media screen and (max-width: 768px){
+/* Header Hamburger menu */ 
+    /* .mobile-container{background-color: rgb(16, 73, 231);} */
+
+/* First section */
+    .hero-container{margin-top: -2.2rem;}
+    .top-layer{line-height: 2;padding: 25px 0;margin-top: 8rem;}
+    .top-layer h2{line-height: 1.5;font-size: 2rem;}
+    .top-layer p{font-size: .9rem;}
+    .search-con{margin-top: 20px;}
+    .search-con select{width: 170px;}
+
+/* Second section */
+    .second-section{margin-top: 3rem;}
+
+/* Fourth section */
+    .fourth-section-con h2{font-size: 1rem;}
+
+/* Fifth section */
+    .fifth-section-con .container{padding: 10px 0;}
+    .fifth-section-con{margin-top: 20px;}
+    .fifth-section-con h2{line-height: 1.4;}
+    .fifth-section-con p{font-size: 1rem;width: fit-content;line-height: 2;}
+
+
+/* Sixth Section */
+    .sixth-section-con .container{max-width: 400px;}
+    .sixth-grid-container{grid-template-columns: 1fr; gap:3rem;}
+
+/* Seventh section */
+    .seventh-section-container{margin:20px 0}
+    .partners-logo-con img{height: fit-content; width: 120px;}
+
+/* Last Section */
+    .last-section-con .container{max-width: 800px;line-height: 1;}
+    .last-section-con .container .text-con p{font-size: .7rem;}
+    .last-section-con button{font-size: 1.1rem;padding: 10px 12px;margin-left: 10rem;}
+
+/* Footer */
+    .footer-container .container{max-width: 1100px;margin: 0 auto;}
+    .footer-grid-container{grid-template-columns: 1fr 1fr; gap: 10px;}
+    .footer-grid-container h3{padding: 10px 0;font-size: 1rem;margin-bottom: -5px; margin: 0;}
+    .footer-grid-container a, .footer-grid-container p{font-size: .8rem;color: white;font-family: "Montserrat", sans-serif;}
+    .email-us button{padding: 5px 20px;margin-top: 10px;}
+
+}
+   
+
+@media screen and (max-width: 670px){
+/* Header Hamburger menu */ 
+    /* .mobile-container{background-color: rgb(60, 1, 4);} */
+    .topnav img{height: 40px;width: 60px;}
+    .topnav a.icon{font-size: 1.2rem;}
+
+/* First section */
+    .hero-container{margin-top: -2.2rem; height: 32.5rem;}
+    .carousel-inner img{height: 32.5rem; margin-top: 0rem;}
+    .top-layer{line-height: 2;padding: 15px 0;margin-top: 5rem;}
+    .top-layer h2{line-height: 1;font-size: 1rem;}
+    .top-layer p{font-size: .7rem;line-height: 1.3; max-width: 300px; margin-bottom: -1px;}
+    .bttn{font-size: .7rem;padding: 3px 8px; margin-left: 5px; margin-top: 20px;}
+    .search-con{ width: 100%; margin-top: 10px;display: flex;flex-direction: column; padding-bottom:10px;}
+    .search-con select{width: 90%; margin: 5px auto;}
+    #bttn-search{align-self: center;font-size: 1rem; border-radius: 5px; margin-top: 5px;}
+
+/* Second section */
+    .second-section{margin-top: 3rem;}
+
+/* Seventh section */
+    .seventh-section-container{margin:10px 0}
+    .seventh-section-container h4{font-size: 1rem;}
+    .seventh-section-container p{font-size: .7rem;}
+    .partners-logo-con img{height: fit-content; width: 70px; margin-right: 5px; padding: 5px;margin-left: -2.5rem;}
+    .seventh-section-container .partners-logo-con img:first-child {margin-left: 2.5rem;}
+
+/* Last Section */
+    .last-section-con .container{max-width: 800px;line-height: 1; margin-top: -1.6rem;}
+    .last-section-con .container .text-con p{font-size: .5rem; line-height: 1.3;}
+    .last-section-con .container .text-con h2{font-size: .8rem; line-height: 1;}
+    .last-section-con button{font-size: .6rem;padding: 6px 5px;margin-left: 1rem;}
+
+/* Footer */
+    .footer-container .container{max-width: 1100px;margin: 0 auto; padding: 0;}
+    .footer-grid-container{grid-template-columns: 1fr; gap: 10px;}
+    .footer-grid-container h3{padding: 10px 0;font-size: 1rem;margin-bottom: -5px; margin: 0;}
+    .footer-grid-container a, .footer-grid-container p{font-size: .8rem;color: white;font-family: "Montserrat", sans-serif;}
+    .email-us button{padding: 2px 20px;margin-top: 10px;}
+    .copywrite p{padding: 20px;font-size:.7rem; font-weight: 300;}
+
+}
+ 
+
+@media screen and (max-width: 399px){
+/* Header Hamburger menu */ 
+    /* .mobile-container{background-color: rgb(110, 116, 164);} */
+    .topnav img{height: 40px;width: 60px;}
+    .topnav a.icon{font-size: 1.2rem;}
+
+/* First section */
+    .hero-container{margin-top: -2.2rem; height: 32.5rem;}
+    .carousel-inner img{height: 32.5rem; margin-top: 0rem;}
+    .top-layer{line-height: 2;padding: 15px 0;margin-top: 5rem;}
+    .top-layer h2{line-height: 1;font-size: 1rem;}
+    .top-layer p{font-size: .7rem;line-height: 1.3; max-width: 300px; margin-bottom: -1px;}
+    .bttn{font-size: .7rem;padding: 3px 8px; margin-left: 5px; margin-top: 20px;}
+    .search-con{ width: 100%; margin-top: 10px;display: flex;flex-direction: column; padding-bottom:10px;}
+    .search-con select{width: 90%; margin: 5px auto;}
+    #bttn-search{align-self: center;font-size: 1rem; border-radius: 5px; margin-top: 5px; padding: 0px 10px}
+
+/* Second section */
+    .second-section{margin-top: 3rem;}
+
+/* Seventh section */
+    .seventh-section-container{margin:10px 0}
+    .seventh-section-container h4{font-size: 1rem;}
+    .seventh-section-container p{font-size: .7rem;}
+    .partners-logo-con img{height: fit-content; width: 70px; margin-right: 5px; padding: 5px;margin-left: -2.5rem;}
+    .seventh-section-container .partners-logo-con img:first-child {margin-left: 2.5rem;}
+
+/* Last Section */
+    .last-section-con .container{max-width: 800px;line-height: 1; margin-top: -1.6rem;}
+    .last-section-con .container .text-con p{font-size: .5rem; line-height: 1.3;}
+    .last-section-con .container .text-con h2{font-size: .8rem; line-height: 1;}
+    .last-section-con button{font-size: .6rem;padding: 6px 5px;margin-left: 1rem;}
+
+/* Footer */
+    .footer-container .container{max-width: 1100px;margin: 0 auto; padding: 0;}
+    .footer-grid-container{grid-template-columns: 1fr; gap: 10px;}
+    .footer-grid-container h3{padding: 10px 0;font-size: 1rem;margin-bottom: -5px; margin: 0;}
+    .footer-grid-container a, .footer-grid-container p{font-size: .8rem;color: white;font-family: "Montserrat", sans-serif;}
+    .email-us button{padding: 2px 20px;margin-top: 10px;}
+    .copywrite p{padding: 20px;font-size:.7rem; font-weight: 300;}
+}
+    
+    
+@media screen and (max-width: 320px){
+/* Header Hamburger menu */ 
+    .mobile-container{margin-bottom: 2.5rem;}
+    .topnav img{height: 40px;width: 60px;}
+    .topnav a.icon{font-size: 1.2rem;}
+
+/* First section */
+    .top-layer{line-height: 2;padding: 15px 0;margin-top: 3rem;}
+    .top-layer p{font-size: .6rem;line-height: 1.3; max-width: 270px; margin-bottom: -1px;}
+
+/* Second section */
+    .second-section h4{font-size: .8rem; margin-bottom: -1rem;}
+    .second-section h5{font-size: .8rem; margin-bottom: -.5rem;}
+
+/* Fouth section */
+    .fourth-section-con h2{font-size: .9rem;}
+ 
+/* Fifth section */
+    .fifth-section-con p{font-size: .7rem; line-height: 1.5;}
+
+/* Sixth section  */
+    .sixth-grid-container h3{font-size: .8rem; line-height: 1;}
+    .sixth-grid-container p{font-size: .7rem; line-height: 1.5;}
+
+
+/* Last section */
+    .last-section-con button{font-size: .5rem;padding: 6px 5px;margin-left: 1rem; margin-top: -.8rem;}
+
+/* Footer */
+    .footer-container .container{max-width: 1100px;margin: 0 auto; padding: 0;}
+    .footer-grid-container{grid-template-columns: 1fr; gap: 10px;}
+    .footer-grid-container h3{padding: 10px 0;font-size: 1rem;margin-bottom: -5px; margin: 0;}
+    .footer-grid-container a, .footer-grid-container p{font-size: .8rem;color: white;font-family: "Montserrat", sans-serif;}
+    .email-us button{padding: 1px 10px;margin-top: 10px;}
+    .copywrite p{padding: 20px;font-size: .6rem; font-weight: 300;}
+
+
+}
+    
+/* iphone landscape */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+}
+
+/* new media */
+
+@media only screen and (min-width: 3490px) and (max-width: 490px) {
+
+}

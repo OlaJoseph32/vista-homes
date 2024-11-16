@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties</title>
+    <link rel="stylesheet" href="./assets/css/property.css">
+    <link rel="stylesheet" href="./assets/css/propertymedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fredoka:wght@300..700&family=Graduate&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=PT+Mono&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/logo (2).png" type="image/x-icon" />
+</head>
+<body>
+    <header class="nav-bar">
+        <nav class="nav-bar-container">
+            <div class="branding">
+                <a href="./index.html"><img src="./assets/images/logo (2).png" alt=""></a>
+            </div>
+            <div class="nav-Menu">
+                <ul class="nav-list">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a class="prop" href="./properties.html">Properties</a></li>
+                    <li><a href="./index.html#aboutUs">About</a></li>
+                    <li><a href="#footer">Contact us</a></li>
+                </ul>
+                <ul class="right-nav-list">
+                    <li><a href="./register.html" class="bttn">Register</a></li>
+                    <li><a href="./login.html" class="bttn bttn-orange-outline">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hamburger menu -->
+    <div class="mobile-container">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <div class="mobile-branding">
+                <a href="./index.html"><img src="./assets/images/logo (2).png" alt="logo"></a>
+            </div>
+            <div id="myLinks">
+                <ul>
+                    <li><a class="hom" href="./index.html">Home</a></li>
+                    <li><a href="./properties.html">Properties</a></li>
+                    <li><a href="./index.html#aboutUs">About</a></li>
+                    <li><a href="#footer">Contact us</a></li>
+                    <li><a href="./register.html" id="mobile-bttn">Register</a></li>
+                    <li><a href="./login.html" id="mobile-bttn" class="outline">Login</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+    </div>
+
+
+    <!-- Section one -->
+    <section class="first-section-container">
+        <div class="container">
+            <div class="topBar">
+                <a href="./index.html">Home > </a><span>Property-List:</span>
+                <h2>Properties</h2>
+                <div class="textanimation">
+                    <p class="cssanimation moveRightToLeft">...This will Feach You Both Properties Which Are For Sell And For Rent</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second-section -->
+    <section class="second-section-container">
+        <div class="container">
+            <div class="grid-con">
+                <div class="searchBar">
+                    <select name="properties" id="properties" class="options"> 
+                        <option value="#">Property</option>
+                        <option value="">Duplex</option>
+                        <option value="">Bungalow</option>
+                        <option value="">Semi-Detatched</option>
+                        <option value="">Mansion</option>
+                        <option value="">Terrace</option>
+                    </select> <br> <br>
+                    <select name="location" id="location" class="options">
+                        <option value="">Location</option>
+                        <option value="">Abuja, NG</option>
+                        <option value="">Lagos, NG</option>
+                        <option value="">Port-Harcout, NG</option>
+                        <option value="">Benin-City, NG</option>
+                        <option value="">Cape-Town, SA</option>
+                        <option value="">Zanzibar, TZ </option>
+                        <option value="">Dubai, UAE</option>
+                        <option value="">Los Angeles, CA USA</option>
+                        <option value="">Toronto, ON</option>
+                    </select> <br> <br>
+                    <select name="price" id="price" class="options">
+                        <option value="">Price range</option>
+                        <option value="">$1,500 - $20,000</option>
+                        <option value="">$20,000 - $100,000</option>
+                        <option value="">$100,000 - $500,000</option>
+                        <option value="">$500,000 - $1,000,000</option>
+                        <option value="">$1,000,000 - $5,000,000</option>
+                        <option value="">$5,000,000 - $10,000,000</option>
+                    </select> <br> <br> <br>
+                    <a href="./property.html"><button type="submit" class="searchBtn">Search</button></a>
+                </div>
+
+                <div class="property-list">
+                    <div class="img-container" >
+                        <img src="./assets/images/first home.webp" alt="Gallery 1" class="thumbnail" onclick="openModal(0, 'set1')">
+
+                        <!-- Modal Section -->
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption"></div>        
+                            
+                            <!-- Navigation Buttons -->
+                            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="location-container">
+                            <h2>For Sale</h2>
+                            <h4>Mansion</h4>
+                            <a href="#"><p>Luxury Family House</p></a>
+                            <a href="#"><p><i class="fa-solid fa-location-dot fa-sm" style="color: red;"></i> Lekki Phase I, Lagos Nigeria.</p></a>
+                            <span> Bed: <span class="num">5</span> Sqft: <span class="num">340</span> Bath: <span class="num">8</span> </span>
+                            <h3>$210,000</h3>
+                        </div>
+                        <div class="agent-container">
+                            <div class="agent-img1">
+                                <img src="./assets/images/agent ola.png" alt="">
+                            </div>
+                            <div class="agent-name">
+                                <h5>Agent Joseph</h5>
+                                <p>1 month ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="grid-con2">
+                <div class="div"></div>
+
+                <div class="property-list">
+                    <div class="img-container" >
+                        <img src="./assets/images/second home2.webp" alt="Gallery 2" class="thumbnail" onclick="openModal(0, 'set2')">
+
+                        <!-- Modal Section -->
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption"></div>        
+                            
+                            <!-- Navigation Buttons -->
+                            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="location-container">
+                            <h2>For Rent</h2>
+                            <h4>Bungalow</h4>
+                            <a href="#"><p>3 Bed Rooms Apartment</p></a>
+                            <a href="#"><p><i class="fa-solid fa-location-dot fa-sm" style="color: red;"></i> Maitama, Abuja, Nigeria.</p></a>
+                            <span>Bed: <span class="num">3</span> Sqft: <span class="num">211</span>  Bath: <span class="num">4</span> </span>
+                            <h3>$1,800/m</h3>
+                        </div>
+                        <div class="agent-container">
+                            <div class="agent-img1">
+                                <img src="./assets/images/agent (2).jpg" alt="">
+                            </div>
+                            <div class="agent-name">
+                                <h5>Agent Isaac</h5>
+                                <p>A week ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-con2">
+                <div class="div"></div>
+
+                <div class="property-list">
+                    <div class="img-container" >
+                        <img src="./assets/images/third home1.webp" alt="Gallery 3" class="thumbnail" onclick="openModal(0, 'set3')">
+
+                        <!-- Modal Section -->
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption"></div>        
+                            
+                            <!-- Navigation Buttons -->
+                            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="location-container">
+                            <h2>For Rent</h2>
+                            <h4>Semi-Detached</h4>
+                            <a href="#"><p>3 Bed Rooms Apartment</p></a>
+                            <a href="#"><p><i class="fa-solid fa-location-dot fa-sm" style="color: red;"></i> Asokoro, Abuja, Nigeria.</p></a>
+                            <span>Bed: <span class="num">3</span> Sqft: <span class="num">110</span>  Bath: <span class="num">4</span> </span>
+                            <h3>$2,500/m</h3>
+                        </div>
+                        <div class="agent-container">
+                            <div class="agent-img1">
+                                <img src="./assets/images/agent (4).jpg" alt="">
+                            </div>
+                            <div class="agent-name">
+                                <h5>Agent Jane</h5>
+                                <p>yesterday</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="grid-con2">
+                <div class="div"></div>
+
+                <div class="property-list">
+                    <div class="img-container" >
+                        <img src="./assets/images/fourth home1.webp" alt="Gallery 4" class="thumbnail" onclick="openModal(0, 'set4')">
+
+                        <!-- Modal Section -->
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption"></div>        
+                            
+                            <!-- Navigation Buttons -->
+                            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="location-container">
+                            <h2>For Sale</h2>
+                            <h4>Terrace</h4>
+                            <a href="#"><p>6 Bed Rooms Apartment</p></a>
+                            <a href="#"><p><i class="fa-solid fa-location-dot fa-sm" style="color: red;"></i> Maitama, Abuja, Nigeria.</p></a>
+                            <span>Bed: <span class="num">6</span> Sqft: <span class="num">312</span>  Bath: <span class="num">7</span> </span>
+                            <h3>$2,000,000</h3>
+                        </div>
+                        <div class="agent-container">
+                            <div class="agent-img1">
+                                <img src="./assets/images/agent (10).jpg" alt="">
+                            </div>
+                            <div class="agent-name">
+                                <h5>Agent Janet</h5>
+                                <p>18 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="grid-con2">
+                <div class="div"></div>
+
+                <div class="property-list">
+                    <div class="img-container" >
+                        <img src="./assets/images/fifth home1.webp" alt="Gallery 5" class="thumbnail" onclick="openModal(0, 'set5')">
+
+                        <!-- Modal Section -->
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption"></div>        
+                            
+                            <!-- Navigation Buttons -->
+                            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="location-container">
+                            <h2>For Sale</h2>
+                            <h4>Fully-Detached</h4>
+                            <a href="#"><p>5 Bed Rooms Apartment</p></a>
+                            <a href="#"><p><i class="fa-solid fa-location-dot fa-sm" style="color: red;"></i> Los Angeles, CA, USA</p></a>
+                            <span>Bed: <span class="num">5</span> Sqft: <span class="num">212</span>  Bath: <span class="num">6</span> </span>
+                            <h3>$2,500,000</h3>
+                        </div>
+                        <div class="agent-container">
+                            <div class="agent-img1">
+                                <img src="./assets/images/agent (8).jpg" alt="">
+                            </div>
+                            <div class="agent-name">
+                                <h5>Agent James</h5>
+                                <p>2 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="grid-con2">
+                <div class="div"></div>
+
+                <div class="property-list">
+                    <div class="img-container" >
+                        <img src="./assets/images/beach house1.webp" alt="Gallery 6" class="thumbnail" onclick="openModal(0, 'set6')">
+
+                        <!-- Modal Section -->
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption"></div>        
+                            
+                            <!-- Navigation Buttons -->
+                            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="location-container">
+                            <h2>For Rent</h2>
+                            <h4>Beach House</h4>
+                            <a href="#"><p>4 Bed Rooms with gym</p></a>
+                            <a href="#"><p><i class="fa-solid fa-location-dot fa-sm" style="color: red;"></i> Dubai, UAE</p></a>
+                            <span>Bed: <span class="num">4</span> Sqft: <span class="num">112</span>  Bath: <span class="num">5</span> </span>
+                            <h3>$1,050/night</h3>
+                        </div>
+                        <div class="agent-container">
+                            <div class="agent-img1">
+                                <img src="./assets/images/agent (6).jpg" alt="">
+                            </div>
+                            <div class="agent-name">
+                                <h5>Agent Sima</h5>
+                                <p>3 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="grid-con2">
+                <div class="div"></div>
+
+                <div class="property-list">
+                    <div class="img-container" >
+                        <img src="./assets/images/fifth home7.webp" alt="Gallery 7" class="thumbnail" onclick="openModal(0, 'set7')">
+
+                        <!-- Modal Section -->
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption"></div>        
+                            
+                            <!-- Navigation Buttons -->
+                            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="location-container">
+                            <h2>For Rent</h2>
+                            <h4>Bungalow</h4>
+                            <a href="#"><p>3 Bed Rooms with gym</p></a>
+                            <a href="#"><p><i class="fa-solid fa-location-dot fa-sm" style="color: red;"></i> Cape-Town, SA</p></a>
+                            <span>Bed: <span class="num">3</span> Sqft: <span class="num">112</span>  Bath: <span class="num">3</span> </span>
+                            <h3>$1,850/m</h3>
+                        </div>
+                        <div class="agent-container">
+                            <div class="agent-img1">
+                                <img src="./assets/images/agent (3).jpg" alt="">
+                            </div>
+                            <div class="agent-name">
+                                <h5>Agent Zoe</h5>
+                                <p>7 hours ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="grid-con2">
+                <div class="div"></div>
+
+                <div class="property-list">
+                    <div class="img-container" >
+                        <img src="./assets/images/fourth home2.webp" alt="Gallery 8" class="thumbnail" onclick="openModal(0, 'set8')">
+
+                        <!-- Modal Section -->
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption"></div>        
+                            
+                            <!-- Navigation Buttons -->
+                            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="location-container">
+                            <h2>For Sale</h2>
+                            <h4>Semi-Detached</h4>
+                            <a href="#"><p>4 Bed Rooms Apartment</p></a>
+                            <a href="#"><p><i class="fa-solid fa-location-dot fa-sm" style="color: red;"></i> Toronto, ON Canada</p></a>
+                            <span>Bed: <span class="num">4</span> Sqft: <span class="num">112</span>  Bath: <span class="num">5</span> </span>
+                            <h3>$125,000</h3>
+                        </div>
+                        <div class="agent-container">
+                            <div class="agent-img1">
+                                <img src="./assets/images/agent (7).jpg" alt="">
+                            </div>
+                            <div class="agent-name">
+                                <h5>Agent Comfort</h5>
+                                <p>3 weeks ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid-con2">
+                <div class="div"></div>
+
+                <div class="property-list">
+                    <div class="img-container" >
+                        <img src="./assets/images/second home1.webp" alt="Gallery 9" class="thumbnail" onclick="openModal(0, 'set9')">
+
+                        <!-- Modal Section -->
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption"></div>        
+                            
+                            <!-- Navigation Buttons -->
+                            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="location-container">
+                            <h2>For Sale</h2>
+                            <h4>Terrace</h4>
+                            <a href="#"><p>2 Bed Rooms Apartment</p></a>
+                            <a href="#"><p><i class="fa-solid fa-location-dot fa-sm" style="color: red;"></i> Zanzibar, TZ</p></a>
+                            <span>Bed: <span class="num">2</span> Sqft: <span class="num">102</span>  Bath: <span class="num">3</span> </span>
+                            <h3>195,000</h3>
+                        </div>
+                        <div class="agent-container">
+                            <div class="agent-img1">
+                                <img src="./assets/images/agent (5).jpg" alt="">
+                            </div>
+                            <div class="agent-name">
+                                <h5>Agent Hannah</h5>
+                                <p>2 weeks ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="grid-con2">
+                <div class="div"></div>
+
+                <div class="property-list">
+                    <div class="img-container" >
+                        <img src="./assets/images/first home3.webp" alt="Gallery 10" class="thumbnail" onclick="openModal(0, 'set10')">
+
+                        <!-- Modal Section -->
+                        <div id="imageModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption"></div>        
+                            
+                            <!-- Navigation Buttons -->
+                            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    <div class="property-details">
+                        <div class="location-container">
+                            <h2>For Sale</h2>
+                            <h4>Studio Apartment</h4>
+                            <a href="#"><p>1 Bed Room Apartment</p></a>
+                            <a href="#"><p><i class="fa-solid fa-location-dot fa-sm" style="color: red;"></i> Wuse II, Abuja, NG</p></a>
+                            <span>Bed: <span class="num">1</span> Sqft: <span class="num">102</span>  Bath: <span class="num">2</span> </span>
+                            <h3>105,000</h3>
+                        </div>
+                        <div class="agent-container">
+                            <div class="agent-img1">
+                                <img src="./assets/images/agent (8).jpg" alt="">
+                            </div>
+                            <div class="agent-name">
+                                <h5>Agent James</h5>
+                                <p>2 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="footer-container" id="footer">
+        <div class="container">
+            <div class="footer-grid-container">
+                <div class="footer-menu1">
+                    <h3 class="text-md">About Us</h3>
+                    <p class="text-sm">Welcome to VistaHomes by Olajoseph, your trusted partner in finding the perfect home. With a commitment to excellence and a deep understanding of the real estate market, we offer a wide range of properties to suit every need and budget. Our dedicated team is here to guide you through every step of the buying or renting process, ensuring a smooth and satisfying experience. Explore VistaHomes today and let us help you find a place you can truly call home.</p>
+                    <button type="button">Learn more</button>
+                    <h3 class="text-md">Advertise with us</h3>
+                    <a href="#" class="text-sm">Advertise/Market Your Property</a>
+                    <a href="#" class="text-sm">Featured Real Estate Companies</a>
+                    <a href="#" class="text-sm">Place Banner Adverts</a>
+                </div>
+
+                <div class="footer-menu2">
+                    <h3 class="text-md">Market Trends</h3>
+                    <a href="#" class="text-sm">Property Demand Trends</a>
+                    <a href="#" class="text-sm">Average Property Prices</a>
+                    <h3 class="text-md">Popular Property</h3>
+                    <a href="#" class="text-sm">Flats for rent in Abuja</a>
+                    <a href="#" class="text-sm">Houses for rent in Lagos</a> 
+                    <a href="#" class="text-sm">Houses for sale in Los Angeles, CA</a>
+                    <a href="#" class="text-sm">Land for sale in Cape-Town, SA</a>
+                    <a href="#" class="text-sm">Mini flats for rent in Abuja</a>
+                    <a href="#" class="text-sm">Self contain for rent in Lagos</a>
+                    <a href="#" class="text-sm">Flats for rent in Toronto, ON</a>
+                    <a href="#" class="text-sm">Houses for rent in Dubai, UAE</a>
+                    <a href="#" class="text-sm">Houses for sale in Zanzibar TZ</a>
+                    <a href="#" class="text-sm">Land for sale in Lagos</a>
+                    <a href="#" class="text-sm">Mini flats for rent in Los Angeles, CA</a>
+                    <a href="#" class="text-sm">Self contain for rent in Benin-city</a>
+                </div>
+                <div class="footer-menu3">
+                    <h3 class="text-md">Companies</h3>
+                    <a href="#" class="text-sm">Estate Agents</a>
+                    <a href="#" class="text-sm">Property Developers</a>
+                    <h3 class="text-md">Useful Links</h3>
+                    <a href="#" class="text-sm">Property Blog</a>
+                    <a href="#" class="text-sm">Area Guides</a>
+                    <a href="#" class="text-sm">Contact Us</a>
+                    <a href="#" class="text-sm">Privacy Policy</a>
+                    <a href="#" class="text-sm">Terms of Use</a>
+                    <a href="#" class="text-sm">FAQs</a>
+                </div>
+                <div class="footer-menu4">
+                    <h3 class="text-md">Follow Us</h3>
+                    <div class="social-link">
+                        <a href=""><i class="fa-brands fa-instagram fa-xl" style="color: #0c0d0d;"></i> </a> 
+                        <a href=""><i class="fa-brands fa-twitter fa-xl" style="color: #050505;"></i> </a>
+                        <a href=""><i class="fa-brands fa-facebook fa-xl" style="color: #0a0a0a;"></i> </a>
+                        <a href=""><i class="fa-brands fa-linkedin fa-xl" style="color: #121212;"></i> </a> 
+                        <a href=""><i class="fa-brands fa-youtube fa-xl" style="color: #121212;"></i> </a>
+                    </div>
+                    <h3 class="text-md">Download Our Mobile App</h3>
+                    <a href="#" tabIndex="0"><img class="apple-Btn" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"alt="bn45"/></a>
+                    <a href="#" tabIndex="0"><img class="andriod-Btn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45"/></a>  
+                    <h3 class="text-md">Contact Us</h3>
+                    <p class="text-sm">oluwasolaajibola0129@yahoo.com</p>
+                    <p class="text-sm">Plot 425 Range View Estate, Dawaki, FCT. Abuja.</p>
+                    <p class="text-sm">+2348101827746</p>
+                    <p class="text-sm">+2348141232359</p>
+                    <h3 class="text-md">Subscribe</h3>
+                    <div class="email-us">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Send</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="copywrite">
+            <p class="text-md text-center">2024 © Vista-Homes by OlaJoseph. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>

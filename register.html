@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./assets/css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./assets/images/logo (2).png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fredoka:wght@300..700&family=Graduate&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=PT+Mono&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="nav-bar">
+        <nav class="nav-bar-container">
+            <div class="branding">
+                <a href="./index.html"><img src="./assets/images/logo (2).png" alt=""></a>
+            </div>
+            <div class="nav-Menu">
+                <ul class="nav-list">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./properties.html">Properties</a></li>
+                    <li><a href="./index.html#aboutUs">About</a></li>
+                    <li><a href="#footer">Contact us</a></li>
+                </ul>
+                <ul class="right-nav-list">
+                    <li><a href="./login.html" class="bttn">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hamburger menu -->
+    <div class="mobile-container">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <div class="mobile-branding">
+                <a href="./index.html"><img src="./assets/images/logo (2).png" alt="logo"></a>
+            </div>
+            <div id="myLinks">
+                <ul>
+                    <li><a class="hom" href="./index.html">Home</a></li>
+                    <li><a href="./properties.html">Properties</a></li>
+                    <li><a href="./index.html#aboutUs">About</a></li>
+                    <li><a href="#footer">Contact us</a></li>
+                    <!-- <li><a href="./register.html" id="mobile-bttn">Register</a></li> -->
+                    <li><a href="./login.html" id="mobile-bttn" class="outline">Login</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+    </div>
+
+
+    <!-- Form container -->
+    <main class="form-container">
+        <div class="container">
+            <div class="form-con">
+                <h2 class="text-xl text-center">Register</h2>
+                <div class="Create-container">
+                    <div class="text">
+                        <h3 class="text-md text-center">Create your account</h3>
+                    </div>
+                    <form action="CreateAccount">
+                        <label for="firstname" class="firstname">First Name</label> <br>
+                        <input type="text" name="firstname" id="firstname" placeholder="First name"> <br> <br>
+                        <label for="lastname" class="lastname">Last Name</label> <br>
+                        <input type="text" name="lastname" id="lastname" placeholder="Last name"> <br> <br>
+                        <label for="email" class="email">Email Address</label> <br>
+                        <input type="email" name="email" id="email" placeholder="Enter your email address"> <br> <br>
+                        <label for="username" class="username">Username</label> <br>
+                        <input type="text" name="username" id="username" placeholder="Username"> <br> <br>
+                        <label for="password" id="password" class="password">Password</label> <br>
+                        <input type="password" name="password" id="password" placeholder="Create your password"> <br> 
+                        <label for="confirmpassword" id="confirmpassword">Confirm password</label> <br>
+                        <input type="password" name="password" id="confirmpassword" placeholder="Re-enter your password"> <br> <br>
+                        <input class="radio-tick" type="checkbox" id="checkbox" name="checkbox">
+                        <label class="account-type-label" for="rememberMe">Remember Me</label> <br> <br>
+                        <label for="accounttype" id="accountype">Account Type:</label> <br>
+                        <input class="radio-tick" type="radio" id="radio" name="radio">
+                        <label class="account-type-label" for="individual">Individual [searching for property]</label> <br> 
+                        <input class="radio-tick" type="radio" id="radio" name="radio">
+                        <label class="account-type-label" for="propertyOwner">Property Owner</label> <br>
+                        <input class="radio-tick" type="radio" id="radio" name="radio">
+                        <label class="account-type-label" for="estateAgent">Estate Agent.</label> <br>
+                        <input class="radio-tick" type="radio" id="radio" name="radio">
+                        <label class="account-type-label" for="propertyDev">Property Developer.</label> <br> <br>
+                        <div class="btttn-con">
+                            <button type="submit" class="bttn registerBtn">Register</button> 
+                        </div>
+                        <p>By registering you accept our <a href="#">Terms of Use</a> and <a href="#">Privacy</a> and agree that we and our selected partners may contact you with relevant offers and services.</p>
+                        <h4>Already have an account? <a href="./login.html">Click here to sign in.</a></h4> <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-container" id="footer">
+        <div class="container">
+            <div class="footer-grid-container">
+                <div class="footer-menu1">
+                    <h3 class="text-md">About Us</h3>
+                    <p class="text-sm">Welcome to VistaHomes by Olajoseph, your trusted partner in finding the perfect home. With a commitment to excellence and a deep understanding of the real estate market, we offer a wide range of properties to suit every need and budget. Our dedicated team is here to guide you through every step of the buying or renting process, ensuring a smooth and satisfying experience. Explore VistaHomes today and let us help you find a place you can truly call home.</p>
+                    <button type="button">Learn more</button>
+                    <h3 class="text-md">Advertise with us</h3>
+                    <a href="#" class="text-sm">Advertise/Market Your Property</a>
+                    <a href="#" class="text-sm">Featured Real Estate Companies</a>
+                    <a href="#" class="text-sm">Place Banner Adverts</a>
+                </div>
+
+                <div class="footer-menu2">
+                    <h3 class="text-md">Market Trends</h3>
+                    <a href="#" class="text-sm">Property Demand Trends</a>
+                    <a href="#" class="text-sm">Average Property Prices</a>
+                    <h3 class="text-md">Popular Property</h3>
+                    <a href="#" class="text-sm">Flats for rent in Abuja</a>
+                    <a href="#" class="text-sm">Houses for rent in Lagos</a> 
+                    <a href="#" class="text-sm">Houses for sale in Los Angeles, CA</a>
+                    <a href="#" class="text-sm">Land for sale in Cape-Town, SA</a>
+                    <a href="#" class="text-sm">Mini flats for rent in Abuja</a>
+                    <a href="#" class="text-sm">Self contain for rent in Lagos</a>
+                    <a href="#" class="text-sm">Flats for rent in Toronto, ON</a>
+                    <a href="#" class="text-sm">Houses for rent in Dubai, UAE</a>
+                    <a href="#" class="text-sm">Houses for sale in Zanzibar TZ</a>
+                    <a href="#" class="text-sm">Land for sale in Lagos</a>
+                    <a href="#" class="text-sm">Mini flats for rent in Los Angeles, CA</a>
+                    <a href="#" class="text-sm">Self contain for rent in Benin-city</a>
+                </div>
+                <div class="footer-menu3">
+                    <h3 class="text-md">Companies</h3>
+                    <a href="#" class="text-sm">Estate Agents</a>
+                    <a href="#" class="text-sm">Property Developers</a>
+                    <h3 class="text-md">Useful Links</h3>
+                    <a href="#" class="text-sm">Property Blog</a>
+                    <a href="#" class="text-sm">Area Guides</a>
+                    <a href="#" class="text-sm">Contact Us</a>
+                    <a href="#" class="text-sm">Privacy Policy</a>
+                    <a href="#" class="text-sm">Terms of Use</a>
+                    <a href="#" class="text-sm">FAQs</a>
+                </div>
+                <div class="footer-menu4">
+                    <h3 class="text-md">Follow Us</h3>
+                    <div class="social-link">
+                        <a href=""><i class="fa-brands fa-instagram fa-xl" style="color: #0c0d0d;"></i> </a> 
+                        <a href=""><i class="fa-brands fa-twitter fa-xl" style="color: #050505;"></i> </a>
+                        <a href=""><i class="fa-brands fa-facebook fa-xl" style="color: #0a0a0a;"></i> </a>
+                        <a href=""><i class="fa-brands fa-linkedin fa-xl" style="color: #121212;"></i> </a> 
+                        <a href=""><i class="fa-brands fa-youtube fa-xl" style="color: #121212;"></i> </a>
+                    </div>
+                    <h3 class="text-md">Download Our Mobile App</h3>
+                    <a href="#" tabIndex="0"><img class="apple-Btn" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"alt="bn45"/></a>
+                    <a href="#" tabIndex="0"><img class="andriod-Btn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="bn45"/></a>  
+                    <h3 class="text-md">Contact Us</h3>
+                    <p class="text-sm">oluwasolaajibola0129@yahoo.com</p>
+                    <p class="text-sm">Plot 425 Range View Estate, Dawaki, FCT. Abuja.</p>
+                    <p class="text-sm">+2348101827746</p>
+                    <p class="text-sm">+2348141232359</p>
+                    <h3 class="text-md">Subscribe</h3>
+                    <div class="email-us">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Send</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="copywrite">
+            <p class="text-md text-center">2024 © Vista-Homes by OlaJoseph. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
